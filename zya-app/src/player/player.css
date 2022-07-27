@@ -1,0 +1,10 @@
+.player {
+    margin: 15px;
+    padding: 10px;
+    min-height: 400px;
+    min-width: 320px;
+    background-color: var(--dark-neon-green);
+    box-sizing: border-box;
+    border: 1px solid var(--dark-neon-green);
+    border-radius: 3px;
+}
