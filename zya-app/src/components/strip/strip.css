@@ -1,0 +1,38 @@
+.strip {
+  margin-left: 10px;
+  width: 15px;
+  height: 100%;
+  border: 1px solid var(--black);
+  border-radius: 2px;
+  caret-color: transparent;
+  box-sizing: border-box;
+}
+
+.strip:first-of-type {
+  margin-left: 0;
+}
+
+.strip--meter {
+  background-color: var(--grayny);
+}
+
+.strip--cross-fader {
+  background-color: var(--greeny-lemon);
+}
+
+.strip--fader {
+  background-color: var(--neon-green);
+}
+
+.strip--master {
+  background-color: var(--neon-rouse);
+}
+
+.strip--input-meter {
+  width: 12px;
+  background-color: var(--grayny);
+}
+
+.strip--input {
+  width: 12px;
+}
