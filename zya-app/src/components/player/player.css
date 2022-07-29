@@ -1,0 +1,9 @@
+.row {
+  display: flex;
+  margin-top: 10px;
+  height: 115px;
+}
+
+.row--second {
+  height: 160px;
+}

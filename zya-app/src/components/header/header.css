@@ -1,0 +1,11 @@
+.header__wrapper{
+    display: flex;
+}
+
+.header__lead {
+    margin: auto;
+}
+
+.header__file-name {
+  margin: 10px 0 0;
+}

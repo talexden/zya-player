@@ -1,0 +1,7 @@
+.ctrl__line .controller {
+  margin-left: 10px;
+}
+
+.ctrl__line .controller:first-child {
+  margin-left: 0;
+}

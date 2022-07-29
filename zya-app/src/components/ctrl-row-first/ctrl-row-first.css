@@ -1,0 +1,13 @@
+.ctrl__row {
+    padding-left: 15px;;
+}
+
+.ctrl__wrapper {
+    display: flex;
+    margin-top: 5px;
+}
+
+.ctrl__wrapper:first-child {
+    margin-top: 0;
+}
+

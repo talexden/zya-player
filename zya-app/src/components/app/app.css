@@ -1,0 +1,74 @@
+:root {
+  --dark-neon-green: #008C50;
+  --neon-green: #00FC04;
+  --greeny-lemon: #C4FCC4;
+  --lemon: #F8FC00;
+  --dirty-orange: #FC8000;
+  --neon-rouse: #FC7C78;
+  --red: #CC2D2D;
+  --grayny: #404040;
+  --black: #000000;
+  --button-size: 35px;
+}
+
+.controller {
+  margin-left: 5px;
+  padding: 0;
+  text-align: center;
+  font-size: 10px;
+  line-height: var(--button-size);
+  background-color: var(--neon-green);
+  border: 1px solid var(--black);
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.controller:first-child {
+  margin-left: 0;
+}
+
+.controller:hover,
+.controller:focus {
+  background-color: var(--lemon);
+}
+
+.controller:active {
+  background-color: var(--dirty-orange);;
+}
+
+.button {
+  height: var(--button-size);
+  width: var(--button-size);
+  caret-color: transparent;
+}
+
+.input {
+  height: var(--button-size);
+  width: var(--button-size);
+}
+
+.number-no-button,
+.number-no-button:hover,
+.number-no-button:focus {
+  appearance: none;
+  -moz-appearance:textfield;
+}
+
+
+.number-no-button::-webkit-outer-spin-button,
+.number-no-button::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.component {
+  margin: 15px;
+  padding: 19px;
+  min-height: 400px;
+  min-width: 345px;
+  background-color: var(--dark-neon-green);
+  box-sizing: border-box;
+  border: 1px solid var(--dark-neon-green);
+  border-radius: 3px;
+}
