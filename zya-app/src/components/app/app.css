@@ -12,7 +12,7 @@
 }
 
 .controller {
-  margin-left: 5px;
+  margin-left: 16px;
   padding: 0;
   text-align: center;
   font-size: 10px;
@@ -63,9 +63,9 @@
 }
 
 .component {
-  margin: 15px;
-  padding: 19px;
-  min-height: 400px;
+  margin: 5px;
+  padding: 13px;
+  min-height: 362px;
   min-width: 345px;
   background-color: var(--dark-neon-green);
   box-sizing: border-box;

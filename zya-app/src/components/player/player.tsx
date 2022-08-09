@@ -10,11 +10,11 @@ type PlayerProps = {
 }
 
 function Player ({playerIdx}: PlayerProps):JSX.Element {
-    const fileName = 'test-file';
+    // const fileName = 'test-file';
     return (
         <div className='player component'>
           <Header blockName={`Player-${playerIdx + 1}`}/>
-          <p className='header__file-name'>{fileName}</p>
+          <p className='header__file-name' id='status'></p>
           <div className='player__row row'>
             <StripsRowFirst />
             <CtrlRowFirst />

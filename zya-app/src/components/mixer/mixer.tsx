@@ -14,7 +14,7 @@ function Mixer ():JSX.Element {
       <div className='mixer component'>
         <Header blockName={TYPE_NAME}/>
         <CtrlLine />
-        <div className='mixer__row row'>
+        <div className='mixer__row mixer__row--first row'>
           <StripsRowFirst />
           <InputRowFirst />
         </div>

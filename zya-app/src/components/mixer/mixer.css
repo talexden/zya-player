@@ -1,3 +1,7 @@
 .mixer {
   min-height: 358px;
 }
+
+.mixer__row--first {
+  height: 80px;
+}
